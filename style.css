@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 110%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fraunces';
+    width: 110%;
+    
+}
+
+.container {
+    min-width: 120vh;
+    width: 40rem;
+    margin: 5rem auto; 
+    border-radius: 15px;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container article picture img {
+    border-radius: 10px;
+}
+
+.cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 2rem;
+    cursor: pointer;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    width: 13rem;
+    height: 2rem;
+    
+}
+
+.cart-btn:hover {
+   color: hsl(212, 21%, 14%);
+   display: flex;
+   align-items: center;
+}
+
+
+.container article h2 {
+    font-family: 'montserrat';
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 2rem;
+    letter-spacing: 2px;
+   
+}
+
+.container article h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 2rem;
+}
+
+.container article p {
+    font-family: 'montserrat';
+    font-weight: 200;
+    font-size: 15px;
+    margin: 2rem;
+    letter-spacing: 1.5px;
+    
+}
+.container .price {
+    color: hsl(158, 36%, 37%);
+    
+}
+
+.container ul {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 2rem; 
+    display: inline-flex;
+    
+}
+
+.container ul .price{
+    font-weight: 700;
+    font-size: 2rem;
+    padding-right: 1.3rem;
+    margin: auto;
+    
+}
+
+.container ul .price-old {
+    text-decoration: line-through;
+    font-size: 15px;
+    padding: 1.4rem;
+    margin: auto;
+    font-weight: 300;
+    font-family: 'montserrat';
+    
+}
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
